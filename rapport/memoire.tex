@@ -1,0 +1,63 @@
+\documentclass[a4paper, 12pt]{report}
+\usepackage{graphicx}
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{multirow}
+\usepackage{listings}
+\usepackage{float}
+\usepackage[french]{babel}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{pageanchor=false}
+
+\begin{document}
+
+\begin{titlepage}
+  \begin{center}
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      \includegraphics[height=1.5cm]{images/m1info.png}      
+    \end{tabular*}
+    \small 
+    \rule{\textwidth}{.5pt}~\\
+    \large 
+    \textsc{Université Paris 8 - Vincennes à Saint-Denis}\vspace{0.5cm}\\
+    \textbf{Master Informatique des Systèmes Embarqués}\vspace{3.0cm}\\
+    \Large
+    \textbf{Rapport de projet tuteuré}\vspace{1.5cm}\\
+    \large
+    \textbf{Samuel \textsc{de Vals}}\\
+		\textbf{Paul \textsc{Vialart}}\vspace{1.5cm}\\
+    Date de soutenance : le 19/01/2017\vspace{1.75cm}\\
+  \end{center}\vspace{1.5cm}~\\
+  \begin{tabular}{ll}
+    \hspace{-0.45cm}Tuteur -- Université~:~&~Sylvia \textsc{Chalençon}
+  \end{tabular}
+\end{titlepage}
+
+\newpage\null\newpage
+
+\chapter*{Résumé}
+\markboth{\sc Résumé}{}
+\addcontentsline{toc}{chapter}{Résumé} 
+\input{teX/000_resume.tex}
+
+\chapter*{Introduction}
+\markboth{\sc Introduction}{}
+\addcontentsline{toc}{chapter}{Introduction}
+\input{teX/001_introduction.tex}
+
+%adding content into the summary page /!\ need 2 compilations
+\addcontentsline{toc}{chapter}{Le choix de l'API three.JS}
+\addcontentsline{toc}{chapter}{Le bruit de Perlin}
+
+\tableofcontents
+
+\chapter*{Le choix de l'API three.JS}
+\markboth{\sc Le choix de l'API three.JS}{}
+\input{teX/002_Three.JS.tex}
+
+\chapter*{Le bruit de Perlin}
+\markboth{\sc Le bruit de Perlin}{}
+\input{teX/003_Perlin.tex}
+
+\end{document}
