@@ -6,7 +6,29 @@
 \end{center}
 
 \newpage
-Nous avons choisi l'API three.JS car celle-ci permet de faire du WebGL de façon simple et facilite la mise en œuvre du projet. En effet, ce projet est notre premier contact avec le domaine du WebGL. De plus, nous avons repris le code d'un exemple de cette API.Cet exemple génère un monde virtuel avec le bruit de Perlin, qui rappelle le jeu vidéo Minecraft. Voici le rendu graphique de l'exemple :
+Pour ce projet, nous avons choisi l'API three.JS. Celle-ci permet de faire du WebGL de façon simple et facilite la mise en œuvre du projet. En effet, ce projet est notre premier contact avec le domaine du WebGL. Avec sa communauté active, ses nombreux tutoriels et ses exemples détaillés, three.JS semble être la méthode la plus simple pour modéliser l'environnement qui nous a été demandé.
+
+Cette API permet de simuler une vaste variété de rendus en 3D paramétrables. Il peut s'agir de décors, de personnages, d'effets de particules, etc.
+
+\begin{center}
+	\includegraphics[height=6cm]{images/threeJS_poly_cat.png}\\
+	\textit{Exemple de personnage 3D généré avec le module Poly de three.JS}
+\end{center}
+
+\begin{center}
+	\includegraphics[height=6cm]{images/threeJS_poly_particle.png}\\
+	\textit{three.JS permet également de reproduire des effets de particules avancés...}
+\end{center}
+
+\begin{center}
+	\includegraphics[height=6cm]{images/threeJS_poly_city.png}\\
+	\textit{... voire des villes entières.}
+\end{center}
+
+
+
+
+Dans notre cas, la page web génère un monde virtuel avec le bruit de Perlin. Afin de partir sur une modélisation cubique, proche du rendu final en style Lego, nous nous sommes orientés vers une déclinaison de l'API reproduisant l'univers du jeu vidéo Minecraft, réputé pour son univers tout en cubes. Voici le rendu graphique de l'exemple :
 
 \begin{center}
 	\includegraphics[height=6cm]{images/threeJS_minecraft.png}\\
