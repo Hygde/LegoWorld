@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.11)  12 JAN 2018 17:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.15)  15 JAN 2018 16:06
 entering extended mode
 **./002_Three.JS.tex
 (002_Three.JS.tex
@@ -365,7 +365,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[1{C:/Users/Samuel/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+[1{C:/Users/paulv/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Missing character: There is no N in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no u in font nullfont!
@@ -472,6 +472,65 @@ Missing character: There is no j in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no . in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no W in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no . in font nullfont!
 Missing character: There is no D in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no p in font nullfont!
@@ -522,16 +581,336 @@ Missing character: There is no A in font nullfont!
 Missing character: There is no P in font nullfont!
 Missing character: There is no I in font nullfont!
 Missing character: There is no . in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 9--10
+[]
+ []
+
 Missing character: There is no C in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no x in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no m in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no I in font nullfont!
 Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no u in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no √ in font nullfont!
+Missing character: There is no © in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no √ in font nullfont!
+Missing character: There is no © in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no √ in font nullfont!
+Missing character: There is no © in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no √ in font nullfont!
+Missing character: There is no © in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no . in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 11--12
+[]
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 13--13
+[] 
+ []
+
+! Undefined control sequence.
+l.14 	\includegraphics
+                      [height=6cm]{images/threeJS_poly.png}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no J in font nullfont!
+Missing character: There is no S in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.14 	\includegraphics[height=6cm]{images/threeJS_
+                                                  poly.png}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.14 ...phics[height=6cm]{images/threeJS_poly.png}
+                                                  \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 ...ics[height=6cm]{images/threeJS_poly.png}\\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.14 ...ics[height=6cm]{images/threeJS_poly.png}\\
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.14 ...ics[height=6cm]{images/threeJS_poly.png}\\
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (36.8516pt too wide) in paragraph at lines 14--14
+ []\OML/cmm/m/it/10 oly:png[]$ 
+ []
+
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+
+Overfull \hbox (36.46645pt too wide) in paragraph at lines 15--16
+ []\OT1/cmr/m/it/10 Exemple 
+ []
+
+
+Overfull \hbox (9.71104pt too wide) in paragraph at lines 15--16
+ \OT1/cmr/m/it/10 de 
+ []
+
+
+Overfull \hbox (16.9943pt too wide) in paragraph at lines 15--16
+ \OT1/cmr/m/it/10 per- 
+ []
+
+
+Overfull \hbox (18.39989pt too wide) in paragraph at lines 15--16
+ \OT1/cmr/m/it/10 son- 
+ []
+
+
+Overfull \hbox (19.9332pt too wide) in paragraph at lines 15--16
+ \OT1/cmr/m/it/10 nage 
+ []
+
+
+Overfull \hbox (12.66103pt too wide) in paragraph at lines 15--16
+ \OT1/cmr/m/it/10 3D 
+ []
+
+
+Overfull \hbox (14.43878pt too wide) in paragraph at lines 15--16
+ \OT1/cmr/m/it/10 gnr 
+ []
+
+
+Overfull \hbox (18.39984pt too wide) in paragraph at lines 15--16
+ \OT1/cmr/m/it/10 avec 
+ []
+
+
+Overfull \hbox (7.1555pt too wide) in paragraph at lines 15--16
+ \OT1/cmr/m/it/10 le 
+ []
+
+
+Overfull \hbox (21.46652pt too wide) in paragraph at lines 15--16
+ \OT1/cmr/m/it/10 mod- 
+ []
+
+
+Overfull \hbox (12.52214pt too wide) in paragraph at lines 15--16
+ \OT1/cmr/m/it/10 ule 
+ []
+
+
+Overfull \hbox (19.30544pt too wide) in paragraph at lines 15--16
+ \OT1/cmr/m/it/10 Poly 
+ []
+
+
+Overfull \hbox (9.71104pt too wide) in paragraph at lines 15--16
+ \OT1/cmr/m/it/10 de 
+ []
+
+
+Overfull \hbox (35.9636pt too wide) in paragraph at lines 15--16
+ \OT1/cmr/m/it/10 three.JS 
+ []
+
+Missing character: There is no D in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no b in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no √ in font nullfont!
 Missing character: There is no © in font nullfont!
@@ -640,17 +1019,17 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 9--11
+Overfull \hbox (20.0pt too wide) in paragraph at lines 19--20
 []
  []
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 12--12
+Overfull \hbox (20.0pt too wide) in paragraph at lines 21--21
 [] 
  []
 
 ! Undefined control sequence.
-l.13 	\includegraphics
+l.22 	\includegraphics
                       [height=6cm]{images/threeJS_minecraft.png}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -687,13 +1066,13 @@ Missing character: There is no S in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.13 	\includegraphics[height=6cm]{images/threeJS_
+l.22 	\includegraphics[height=6cm]{images/threeJS_
                                                   minecraft.png}\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.13 ...[height=6cm]{images/threeJS_minecraft.png}
+l.22 ...[height=6cm]{images/threeJS_minecraft.png}
                                                   \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -708,7 +1087,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ...eight=6cm]{images/threeJS_minecraft.png}\\
+l.22 ...eight=6cm]{images/threeJS_minecraft.png}\\
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -717,7 +1096,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.13 ...eight=6cm]{images/threeJS_minecraft.png}\\
+l.22 ...eight=6cm]{images/threeJS_minecraft.png}\\
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -725,7 +1104,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.13 ...eight=6cm]{images/threeJS_minecraft.png}\\
+l.22 ...eight=6cm]{images/threeJS_minecraft.png}\\
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -734,7 +1113,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (64.6259pt too wide) in paragraph at lines 13--13
+Overfull \hbox (64.6259pt too wide) in paragraph at lines 22--22
  []\OML/cmm/m/it/10 inecraft:png[]$ 
  []
 
@@ -747,7 +1126,7 @@ Missing character: There is no © in font cmti10!
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.15 ...r/examples/webgl_geometry_minecraft.html}}
+l.24 ...r/examples/webgl_geometry_minecraft.html}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -758,7 +1137,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.15 ...r/examples/webgl_geometry_minecraft.html}}
+l.24 ...r/examples/webgl_geometry_minecraft.html}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -771,7 +1150,7 @@ Missing character: There is no † in font cmr10!
 ! Undefined control sequence.
 <argument> ...l'API three.JS se trouve l√† : \url 
                                                   {https://github.com/mrdoob...
-l.15 ...r/examples/webgl_geometry_minecraft.html}}
+l.24 ...r/examples/webgl_geometry_minecraft.html}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -782,7 +1161,7 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.15 ...r/examples/webgl_geometry_minecraft.html}}
+l.24 ...r/examples/webgl_geometry_minecraft.html}}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -790,7 +1169,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ...mples/webgl_geometry_minecraft.html}
                                                   
-l.15 ...r/examples/webgl_geometry_minecraft.html}}
+l.24 ...r/examples/webgl_geometry_minecraft.html}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -801,7 +1180,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 <recently read> }
                  
-l.15 ...r/examples/webgl_geometry_minecraft.html}}
+l.24 ...r/examples/webgl_geometry_minecraft.html}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -812,7 +1191,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \@footnotetext ...rut \strutbox }\color@endgroup }
                                                   
-l.15 ...r/examples/webgl_geometry_minecraft.html}}
+l.24 ...r/examples/webgl_geometry_minecraft.html}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -827,7 +1206,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16 \end{center}
+l.25 \end{center}
                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -839,7 +1218,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16 \end{center}
+l.25 \end{center}
                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -851,7 +1230,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16 \end{center}
+l.25 \end{center}
                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -859,7 +1238,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.16 \end{center}
+l.25 \end{center}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -870,7 +1249,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.16 \end{center}
+l.25 \end{center}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -881,7 +1260,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.16 \end{center}
+l.25 \end{center}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -892,7 +1271,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.16 \end{center}
+l.25 \end{center}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -901,113 +1280,113 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (10.69446pt too wide) in paragraph at lines 15--16
+Overfull \hbox (10.69446pt too wide) in paragraph at lines 24--25
 [][]\OT1/cmr/m/n/10 Le
  []
 
 
-Overfull \hbox (19.72226pt too wide) in paragraph at lines 15--16
+Overfull \hbox (19.72226pt too wide) in paragraph at lines 24--25
 \OT1/cmr/m/n/10 code
  []
 
 
-Overfull \hbox (27.30559pt too wide) in paragraph at lines 15--16
+Overfull \hbox (27.30559pt too wide) in paragraph at lines 24--25
 \OT1/cmr/m/n/10 source
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 15--16
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 24--25
 \OT1/cmr/m/n/10 de
  []
 
 
-Overfull \hbox (40.83342pt too wide) in paragraph at lines 15--16
+Overfull \hbox (40.83342pt too wide) in paragraph at lines 24--25
 \OT1/cmr/m/n/10 l'exemple
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 15--16
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 24--25
 \OT1/cmr/m/n/10 de
  []
 
 
-Overfull \hbox (23.47227pt too wide) in paragraph at lines 15--16
+Overfull \hbox (23.47227pt too wide) in paragraph at lines 24--25
 \OT1/cmr/m/n/10 l'API
  []
 
 
-Overfull \hbox (35.72229pt too wide) in paragraph at lines 15--16
+Overfull \hbox (35.72229pt too wide) in paragraph at lines 24--25
 \OT1/cmr/m/n/10 three.JS
  []
 
 
-Overfull \hbox (8.38889pt too wide) in paragraph at lines 15--16
+Overfull \hbox (8.38889pt too wide) in paragraph at lines 24--25
 \OT1/cmr/m/n/10 se
  []
 
 
-Overfull \hbox (27.80562pt too wide) in paragraph at lines 15--16
+Overfull \hbox (27.80562pt too wide) in paragraph at lines 24--25
 \OT1/cmr/m/n/10 trouve
  []
 
 
-Overfull \hbox (2.77779pt too wide) in paragraph at lines 15--16
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 24--25
 \OT1/cmr/m/n/10 l
  []
 
 
-Overfull \hbox (2.77779pt too wide) in paragraph at lines 15--16
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 24--25
 \OT1/cmr/m/n/10 :
  []
 
 
-Overfull \hbox (403.22136pt too wide) in paragraph at lines 15--16
+Overfull \hbox (403.22136pt too wide) in paragraph at lines 24--25
 \OT1/cmr/m/n/10 https://github.com/mrdoob/three.js/blob/master/examples/webgl$[]\OML/cmm/m/it/10 eometry[]inecraft:html|
 $ 
  []
 
 
-Overfull \hbox (36.46645pt too wide) in paragraph at lines 14--17
+Overfull \hbox (36.46645pt too wide) in paragraph at lines 23--26
 []\OT1/cmr/m/it/10 Exemple
  []
 
 
-Overfull \hbox (10.47772pt too wide) in paragraph at lines 14--17
+Overfull \hbox (10.47772pt too wide) in paragraph at lines 23--26
 \OT1/cmr/m/it/10 du
  []
 
 
-Overfull \hbox (28.62206pt too wide) in paragraph at lines 14--17
+Overfull \hbox (28.62206pt too wide) in paragraph at lines 23--26
 \OT1/cmr/m/it/10 monde
  []
 
 
-Overfull \hbox (27.72757pt too wide) in paragraph at lines 14--17
+Overfull \hbox (27.72757pt too wide) in paragraph at lines 23--26
 \OT1/cmr/m/it/10 virtuel
  []
 
 
-Overfull \hbox (14.43878pt too wide) in paragraph at lines 14--17
+Overfull \hbox (14.43878pt too wide) in paragraph at lines 23--26
 \OT1/cmr/m/it/10 gnr
  []
 
 
-Overfull \hbox (18.39984pt too wide) in paragraph at lines 14--17
+Overfull \hbox (18.39984pt too wide) in paragraph at lines 23--26
 \OT1/cmr/m/it/10 avec
  []
 
 
-Overfull \hbox (23.6943pt too wide) in paragraph at lines 14--17
+Overfull \hbox (23.6943pt too wide) in paragraph at lines 23--26
 \OT1/cmr/m/it/10 l'API
  []
 
 
-Overfull \hbox (34.76637pt too wide) in paragraph at lines 14--17
+Overfull \hbox (34.76637pt too wide) in paragraph at lines 23--26
 \OT1/cmr/m/it/10 three.JS
  []
 
 
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 14--17
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 23--26
 [] 
  []
 
@@ -1104,17 +1483,17 @@ Missing character: There is no © in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 18--19
+Overfull \hbox (20.0pt too wide) in paragraph at lines 27--28
 []
  []
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 20--20
+Overfull \hbox (20.0pt too wide) in paragraph at lines 29--29
 [] 
  []
 
 ! Undefined control sequence.
-l.21 	\includegraphics
+l.30 	\includegraphics
                       [height=6cm]{images/ProFileOrganisation.png}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1165,22 +1544,22 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 
-Overfull \hbox (40.1219pt too wide) in paragraph at lines 22--23
+Overfull \hbox (40.1219pt too wide) in paragraph at lines 31--32
  []\OT1/cmr/m/it/10 Structure 
  []
 
 
-Overfull \hbox (10.47772pt too wide) in paragraph at lines 22--23
+Overfull \hbox (10.47772pt too wide) in paragraph at lines 31--32
  \OT1/cmr/m/it/10 du 
  []
 
 
-Overfull \hbox (17.50542pt too wide) in paragraph at lines 22--23
+Overfull \hbox (17.50542pt too wide) in paragraph at lines 31--32
  \OT1/cmr/m/it/10 pro- 
  []
 
 
-Overfull \hbox (11.93741pt too wide) in paragraph at lines 22--23
+Overfull \hbox (11.93741pt too wide) in paragraph at lines 31--32
  \OT1/cmr/m/it/10 jet 
  []
 
@@ -1193,10 +1572,10 @@ Overfull \hbox (11.93741pt too wide) in paragraph at lines 22--23
  
 Here is how much of TeX's memory you used:
  15 strings out of 493312
- 324 string characters out of 3138896
- 54761 words of memory out of 3000000
+ 300 string characters out of 3138899
+ 55761 words of memory out of 3000000
  3660 multiletter control sequences out of 15000+200000
  3986 words of font info for 15 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 18i,5n,12p,214b,169s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 18i,5n,12p,284b,169s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!
