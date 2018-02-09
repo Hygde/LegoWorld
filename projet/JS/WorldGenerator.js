@@ -1,3 +1,49 @@
+function getPxGeometry() {
+    var pxGeometry = new THREE.PlaneBufferGeometry(100, 100);
+    pxGeometry.attributes.uv.array[1] = 0.5;
+    pxGeometry.attributes.uv.array[3] = 0.5;
+    pxGeometry.rotateY(Math.PI / 2);
+    pxGeometry.translate(50, 0, 0);
+
+    return new THREE.Geometry().fromBufferGeometry(pxGeometry);
+}
+
+function getNxGeometry() {
+    var nxGeometry = new THREE.PlaneBufferGeometry(100, 100);
+    nxGeometry.attributes.uv.array[1] = 0.5;
+    nxGeometry.attributes.uv.array[3] = 0.5;
+    nxGeometry.rotateY(- Math.PI / 2);
+    nxGeometry.translate(- 50, 0, 0);
+    return new THREE.Geometry().fromBufferGeometry(nxGeometry);
+}
+
+function getPyGeomtry() {
+    var pyGeometry = new THREE.PlaneBufferGeometry(100, 100);
+    pyGeometry.attributes.uv.array[5] = 0.5;
+    pyGeometry.attributes.uv.array[7] = 0.5;
+    pyGeometry.rotateX(- Math.PI / 2);
+    pyGeometry.translate(0, 50, 0);
+    return new THREE.Geometry().fromBufferGeometry(pyGeometry);
+}
+
+function getPzGeomtry() {
+    var pzGeometry = new THREE.PlaneBufferGeometry(100, 100);
+    pzGeometry.attributes.uv.array[1] = 0.5;
+    pzGeometry.attributes.uv.array[3] = 0.5;
+    pzGeometry.translate(0, 0, 50);
+    return new THREE.Geometry().fromBufferGeometry(pzGeometry);
+}
+
+function getNzGeomtry() {
+    var nzGeometry = new THREE.PlaneBufferGeometry(100, 100);
+    nzGeometry.attributes.uv.array[1] = 0.5;
+    nzGeometry.attributes.uv.array[3] = 0.5;
+    nzGeometry.rotateY(Math.PI);
+    nzGeometry.translate(0, 0, -50);
+    return new THREE.Geometry().fromBufferGeometry(nzGeometry);
+}
+
+
 function getY(x, z) {//getter of Y coord
     return (data[x + z * worldWidth] * 0.2) | 0;
 }
@@ -28,95 +74,83 @@ function generateHeight(width, height) {//gen the wolrd
     return data;
 }
 
-function generateWorld() {
+function generateWorld() {//todo : divide into 3 parts tmpGeometry (changing texture with y coordinate)
     var matrix = new THREE.Matrix4();
 
-    var pxGeometry = new THREE.PlaneBufferGeometry(100, 100);
-    pxGeometry.attributes.uv.array[1] = 0.5;
-    pxGeometry.attributes.uv.array[3] = 0.5;
-    pxGeometry.rotateY(Math.PI / 2);
-    pxGeometry.translate(50, 0, 0);
-
-    var nxGeometry = new THREE.PlaneBufferGeometry(100, 100);
-    nxGeometry.attributes.uv.array[1] = 0.5;
-    nxGeometry.attributes.uv.array[3] = 0.5;
-    nxGeometry.rotateY(- Math.PI / 2);
-    nxGeometry.translate(- 50, 0, 0);
-
-    var pyGeometry = new THREE.PlaneBufferGeometry(100, 100);
-    pyGeometry.attributes.uv.array[5] = 0.5;
-    pyGeometry.attributes.uv.array[7] = 0.5;
-    pyGeometry.rotateX(- Math.PI / 2);
-    pyGeometry.translate(0, 50, 0);
-
-    var pzGeometry = new THREE.PlaneBufferGeometry(100, 100);
-    pzGeometry.attributes.uv.array[1] = 0.5;
-    pzGeometry.attributes.uv.array[3] = 0.5;
-    pzGeometry.translate(0, 0, 50);
-
-    var nzGeometry = new THREE.PlaneBufferGeometry(100, 100);
-    nzGeometry.attributes.uv.array[1] = 0.5;
-    nzGeometry.attributes.uv.array[3] = 0.5;
-    nzGeometry.rotateY(Math.PI);
-    nzGeometry.translate(0, 0, -50);
-
     // BufferGeometry cannot be merged yet.
-    var tmpGeometry = new THREE.Geometry();
-    var pxTmpGeometry = new THREE.Geometry().fromBufferGeometry(pxGeometry);
-    var nxTmpGeometry = new THREE.Geometry().fromBufferGeometry(nxGeometry);
-    var pyTmpGeometry = new THREE.Geometry().fromBufferGeometry(pyGeometry);
-    var pzTmpGeometry = new THREE.Geometry().fromBufferGeometry(pzGeometry);
-    var nzTmpGeometry = new THREE.Geometry().fromBufferGeometry(nzGeometry);
+    var LowLayer = new THREE.Geometry();
+    var MiddleLayer = new THREE.Geometry();
+    var HighLayer = new THREE.Geometry();
+
+    //getBufferGeometry
+    var pxTmpGeometry = getPxGeometry();
+    var nxTmpGeometry = getNxGeometry();
+    var pyTmpGeometry = getPyGeomtry();
+    var pzTmpGeometry = getPzGeomtry();
+    var nzTmpGeometry = getNzGeomtry();
+
+    var geometries = [pxTmpGeometry, nxTmpGeometry, pzTmpGeometry, nzTmpGeometry];
 
     for (var z = 0; z < worldDepth; z++) {
-
         for (var x = 0; x < worldWidth; x++) {
 
             var h = getY(x, z);
 
-            matrix.makeTranslation(
-                x * 100 - worldHalfWidth * 100,
-                h * 100,
-                z * 100 - worldHalfDepth * 100
-            );
+            matrix.makeTranslation(x * 100 - worldHalfWidth * 100, h * 100, z * 100 - worldHalfDepth * 100);
 
             var px = getY(x + 1, z);
             var nx = getY(x - 1, z);
             var pz = getY(x, z + 1);
             var nz = getY(x, z - 1);
 
-            tmpGeometry.merge(pyTmpGeometry, matrix);
+            var values = [h, x, z, px, nx, pz, nz];
 
-            if ((px !== h && px !== h + 1) || x === 0) {
-
-                tmpGeometry.merge(pxTmpGeometry, matrix);
-
+            if (h <= -3) {
+                LowLayer.merge(pyTmpGeometry, matrix);
+                LowLayer = merge(matrix, LowLayer, geometries, values);
             }
-
-            if ((nx !== h && nx !== h + 1) || x === worldWidth - 1) {
-
-                tmpGeometry.merge(nxTmpGeometry, matrix);
-
+            else {
+                if (h <= 0) {
+                    MiddleLayer.merge(pyTmpGeometry, matrix);
+                    MiddleLayer = merge(matrix, LowLayer, geometries, values);
+                }
+                else {
+                    HighLayer.merge(pyTmpGeometry, matrix);
+                    HighLayer = merge(matrix, LowLayer, geometries, values);
+                }
             }
-
-            if ((pz !== h && pz !== h + 1) || z === worldDepth - 1) {
-
-                tmpGeometry.merge(pzTmpGeometry, matrix);
-
-            }
-
-            if ((nz !== h && nz !== h + 1) || z === 0) {
-
-                tmpGeometry.merge(nzTmpGeometry, matrix);
-
-            }
-
         }
 
     }
 
-    var geometry = new THREE.BufferGeometry().fromGeometry(tmpGeometry);
+    var geometry = new THREE.BufferGeometry().fromGeometry(LowLayer);
     geometry.computeBoundingSphere();
-
     color3DObject(geometry, water);
+
+    geometry = new THREE.BufferGeometry().fromGeometry(MiddleLayer);
+    geometry.computeBoundingSphere();
+    color3DObject(geometry, water);
+
+    geometry = new THREE.BufferGeometry().fromGeometry(HighLayer);
+    geometry.computeBoundingSphere();
+    color3DObject(geometry, water);
+}
+
+function merge(matrix, layer, geometries, values) {
+    var pxTmpGeometry = geometries[0], nxTmpGeometry = geometries[1];
+    var pzTmpGeometry = geometries[2], nzTmpGeometry = geometries[2];
+
+    var h = values[0], x = values[1], z = values[2];
+    var px = values[3], nx = values[4];
+    var pz = values[5], nz = values[6];
+
+    if ((px !== h && px !== h + 1) || x === 0) layer.merge(pxTmpGeometry, matrix);
+
+    if ((nx !== h && nx !== h + 1) || x === worldWidth - 1) layer.merge(nxTmpGeometry, matrix);
+
+    if ((pz !== h && pz !== h + 1) || z === worldDepth - 1) layer.merge(pzTmpGeometry, matrix);
+
+    if ((nz !== h && nz !== h + 1) || z === 0) layer.merge(nzTmpGeometry, matrix);
+
+    return layer;
 }
