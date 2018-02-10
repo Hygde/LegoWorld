@@ -130,8 +130,8 @@ function generateWorld() {//todo : divide into 3 parts tmpGeometry (changing tex
     }
 
     applyTexture(LowLayer, water);//apply a texture on layer
-    applyTexture(MiddleLayer, water);
-    applyTexture(HighLayer, water);
+    applyTexture(MiddleLayer, grass);
+    applyTexture(HighLayer, dirt);
 }
 
 function merge(matrix, layer, pxTmpGeometry, nxTmpGeometry, pzTmpGeometry, nzTmpGeometry, values) {
