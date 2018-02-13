@@ -43,6 +43,27 @@ function getNzGeomtry() {
     return new THREE.Geometry().fromBufferGeometry(nzGeometry);
 }
 
+function getPlaneGeometry(indexes, axeRotation, radian, translation) {
+
+    console.log(indexes, axeRotation, radian, translation);
+
+    //experimental func
+    var plane = new THREE.PlaneBufferGeometry(100, 100);
+    plane.attributes.uv.array[indexes[0]] = 0.5;
+    plane.attributes.uv.array[indexes[1]] = 0.5;
+
+    switch (axeRotation) {//select good rotation
+        case 'x': plane.rotateX(radian); break;
+        case 'y': plane.rotateY(radian); break;
+        case 'z': plane.rotateZ(radian); break;
+        default: break;
+    }
+
+    //translate [0] -> x; [1] -> y; [2] -> z
+    plane.translate(translation[0], translation[1], translation[2]);
+    return new THREE.Geometry().fromBufferGeometry(plane);
+}
+
 
 function getY(x, z) {//getter of Y coord
     return (data[x + z * worldWidth] * 0.2) | 0;
@@ -89,11 +110,17 @@ function generateWorld() {//todo : divide into 3 parts tmpGeometry (changing tex
     var HighLayer = new THREE.Geometry();
 
     //getBufferGeometry
-    var pxTmpGeometry = getPxGeometry();
+    /*var pxTmpGeometry = getPxGeometry();
     var nxTmpGeometry = getNxGeometry();
     var pyTmpGeometry = getPyGeomtry();
     var pzTmpGeometry = getPzGeomtry();
-    var nzTmpGeometry = getNzGeomtry();
+    var nzTmpGeometry = getNzGeomtry();*/
+
+    var pxTmpGeometry = getPlaneGeometry([1, 3], 'y', (Math.PI / 2), [50, 0, 0]);
+    var nxTmpGeometry = getPlaneGeometry([1, 3], 'y', -(Math.PI / 2), [-50, 0, 0]);
+    var pyTmpGeometry = getPlaneGeometry([5, 7], 'x', -(Math.PI / 2), [0, 50, 0]);
+    var pzTmpGeometry = getPlaneGeometry([1, 3], 'n', (Math.PI / 2), [0, 0, 50]);
+    var nzTmpGeometry = getPlaneGeometry([1, 3], 'y', (Math.PI), [0, 0, -50]);
 
     var geometries = [pxTmpGeometry, nxTmpGeometry, pzTmpGeometry, nzTmpGeometry];
 
