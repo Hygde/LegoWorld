@@ -64,13 +64,6 @@ function generateWorld() {//todo : divide into 3 parts tmpGeometry (changing tex
     var MiddleLayer = new THREE.Geometry();
     var HighLayer = new THREE.Geometry();
 
-    //getBufferGeometry
-    /*var pxTmpGeometry = getPxGeometry();
-    var nxTmpGeometry = getNxGeometry();
-    var pyTmpGeometry = getPyGeomtry();
-    var pzTmpGeometry = getPzGeomtry();
-    var nzTmpGeometry = getNzGeomtry();*/
-
     var pxTmpGeometry = getPlaneGeometry([1, 3], 'y', (Math.PI / 2), [50, 0, 0]);
     var nxTmpGeometry = getPlaneGeometry([1, 3], 'y', -(Math.PI / 2), [-50, 0, 0]);
     var pyTmpGeometry = getPlaneGeometry([5, 7], 'x', -(Math.PI / 2), [0, 50, 0]);
@@ -84,7 +77,7 @@ function generateWorld() {//todo : divide into 3 parts tmpGeometry (changing tex
 
             var h = getY(x, z);
 
-            matrix.makeTranslation(x * 100 - worldHalfWidth * 100, h * 100, z * 100 - worldHalfDepth * 100);
+            matrix.makeTranslation(x * 100 - worldHalfWidth * 100, h * 100, z * 100 - worldHalfDepth * 100);//transform
 
             var px = getY(x + 1, z);
             var nx = getY(x - 1, z);

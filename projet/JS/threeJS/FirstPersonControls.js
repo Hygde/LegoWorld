@@ -49,7 +49,7 @@ THREE.FirstPersonControls = function ( object, domElement ) {
 	this.mouseDragOn = false;
 
 	this.viewHalfX = 0;
-	this.viewHalfY = 0;
+    this.viewHalfY = 0;
 
 	if ( this.domElement !== document ) {
 
@@ -258,8 +258,21 @@ THREE.FirstPersonControls = function ( object, domElement ) {
 		if ( this.moveLeft ) this.object.translateX( - actualMoveSpeed );
 		if ( this.moveRight ) this.object.translateX( actualMoveSpeed );
 
-		if ( this.moveUp ) this.object.translateY( actualMoveSpeed );
-		if ( this.moveDown ) this.object.translateY( - actualMoveSpeed );
+        //todo : ne pas traverser la carte : look @WorldGenerator.js @line 80
+        //var Ycamera = Math.floor((camera.position.y / 100) + 128);
+        var YatXZ = getY(Math.floor((camera.position.x / 100) + worldHalfWidth), Math.floor((camera.position.z / 100) + worldHalfDepth)) + 128;
+        var jump = 0;
+       
+
+        if(this.moveUp) {
+            //this.object.translateY(actualMoveSpeed);
+            jump += 2;
+        }
+
+        if (this.moveDown) {
+            //this.object.translateY(- actualMoveSpeed);
+            jump = 0;
+        }
 
 		var actualLookSpeed = delta * this.lookSpeed;
 
@@ -292,10 +305,13 @@ THREE.FirstPersonControls = function ( object, domElement ) {
 		}
 
 		var targetPosition = this.target,
-			position = this.object.position;
+            position = this.object.position;
+
+        if (jump > 2) jump = 0;
+        position.y = (YatXZ + jump - 126) * 100;
 
 		targetPosition.x = position.x + 100 * Math.sin( this.phi ) * Math.cos( this.theta );
-		targetPosition.y = position.y + 100 * Math.cos( this.phi );
+        targetPosition.y = position.y + 100 * Math.cos( this.phi );
 		targetPosition.z = position.z + 100 * Math.sin( this.phi ) * Math.sin( this.theta );
 
 		this.object.lookAt( targetPosition );

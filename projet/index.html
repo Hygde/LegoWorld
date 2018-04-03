@@ -11,18 +11,18 @@
         <div id="container"><br /><br /><br /><br /><br />Generating world...</div>
         <div id="info"><a href="http://threejs.org" target="_blank" rel="noopener">three.js</a> - <a href="http://www.minecraft.net/" target="_blank" rel="noopener">minecraft</a> demo. featuring <a href="http://painterlypack.net/" target="_blank" rel="noopener">painterly pack</a><br />(left click: forward, right click: backward)</div>
 
-				<!-- loading debugger -->
-				<script src="JS/log4javascript-1.4.13/log4javascript.js"></script>
-				<script>
-					var logger = log4javascript.getDefaultLogger();
-					if(typeof logger !== 'undefined')	{
-						console.log("LOG4J: Logger successfully loaded !");
-						logger.info(new Error().stack+" : Logger open");
-					}
-					else console.log("LOG4J: Error while loading logger...")
-				</script>
+		<!-- loading debugger -->
+		<script src="JS/log4javascript-1.4.13/log4javascript.js"></script>
+		<script>
+			var logger = log4javascript.getDefaultLogger();
+			if(typeof logger !== 'undefined')	{
+				console.log("LOG4J: Logger successfully loaded !");
+				logger.info(new Error().stack+" : Logger open");
+			}
+			else console.log("LOG4J: Error while loading logger...")
+		</script>
 
-				<!-- threeJS file-->
+		<!-- threeJS file-->
         <script src="JS/threeJS/three.js"></script>
         <script src="JS/threeJS/FirstPersonControls.js"></script>
         <script src="JS/threeJS/Detector.js"></script>
