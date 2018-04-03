@@ -62,7 +62,7 @@ function initTHREEJS() {//initialize values
     console.log(data);
 
     water = loadTexture('textures/water.png');
-    grass = loadTexture('textures/atlas.png');
+    grass = loadTexture('textures/grass.png');
     dirt  = loadTexture('textures/dirt.png');
 
     camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 1, 20000);

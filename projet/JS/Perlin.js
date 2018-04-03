@@ -10,7 +10,7 @@ var ImprovedNoise = function(){
 		for(var i = 0; i<2;i++){//mix perm array[] twice
 			for(var j = 0; j<256; j++){
 				pivot = perm[j];
-				index = Math.random()*256;
+				index = Math.floor(Math.random()*256);
 				perm[j] = perm[index];
 				perm[index] = pivot;		
 			}
