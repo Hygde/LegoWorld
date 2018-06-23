@@ -1,4 +1,5 @@
-﻿Le \textbf{bruit de Perlin} est très utilisé dans la génération d'image. Développé par Ken Perlin en 1985, il a depuis largement été repris par toutes sortes d'industries afin de générer, entre autres, des rendus topographiques.	Il permet en effet de remplir une matrice de N dimensions (dans notre cas 3), ce qui se traduit par une élévation de sommets et un rendu graphique cohérent. Nous avons donc implémenté un algorithme de afin de générer ce bruit de Perlin. 
+﻿
+Le \textbf{bruit de Perlin} est très utilisé dans la génération d'image. Développé par Ken Perlin en 1985, il a depuis largement été repris par toutes sortes d'industries afin de générer, entre autres, des rendus topographiques.	Il permet en effet de remplir une matrice de N dimensions (dans notre cas 3), ce qui se traduit par une élévation de sommets et un rendu graphique cohérent. Nous avons donc implémenté un algorithme de afin de générer ce bruit de Perlin. 
 
 L'algorithme se divise en deux temps :
 
@@ -15,11 +16,10 @@ Afin de générer aléatoirement un monde virtuel, il est necessaire de remplir 
 
 A noter que Ken Perlin a ensuite amélioré cet algorithme, afin qu'il soit plus performant en terme de calcul et de résultat. Publiée en 2001, cette nouvelle version s'appelle le bruit de Simplex.
 
-\newpage
-Voici le monde que l'on a reussi à générer :
+En définitive, voici le monde généré :
 
 \begin{center}
 	\null\vspace{0.25cm}
-	\includegraphics[height=3cm]{images/OurMinecraftWorld.png}\\
-	\textit{Monde généré à partir de l'exemple de l'API three.JS}\\
+	\includegraphics[height=3cm]{images/newworld2.eps}\\
+	\textit{Image 8. Résultat de la nouvelle carte. (1)}\\
 \end{center}

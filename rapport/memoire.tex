@@ -8,27 +8,30 @@
 \usepackage{float}
 \usepackage[french]{babel}
 \usepackage[breaklinks]{hyperref}
+\usepackage{subcaption}
+\captionsetup{compatibility=false}
 \hypersetup{pageanchor=false}
+
 
 \begin{document}
 
 \begin{titlepage}
   \begin{center}
     \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-      \includegraphics[height=1.5cm]{images/m1info.png}&
-			\includegraphics[height=1.5cm]{images/P8.png}
+      \includegraphics[height=1.5cm]{images/m1info.eps}&
+			\includegraphics[height=1.5cm]{images/P8.eps}
     \end{tabular*}
     \small 
     \rule{\textwidth}{.5pt}~\\
     \large 
     \textsc{Université Paris 8 - Vincennes à Saint-Denis}\vspace{0.5cm}\\
-    \textbf{Master Informatique des Systèmes Embarqués}\vspace{3.0cm}\\
+    \textbf{Master Informatique}\vspace{3.0cm}\\
     \Large
     \textbf{Rapport de projet tuteuré}\vspace{1.5cm}\\
     \large
     \textbf{Samuel \textsc{de Vals}}\\
 		\textbf{Paul \textsc{Vialart}}\vspace{1.5cm}\\
-    Date de soutenance : le 19/01/2018\vspace{1.75cm}\\
+    Date de soutenance : le 15/06/2018\vspace{1.75cm}\\
   \end{center}\vspace{1.5cm}~\\
   \begin{tabular}{ll}
     \hspace{-0.45cm}Tuteur -- Université~:~&~Sylvia \textsc{Chalençon}
@@ -60,19 +63,24 @@
 \addcontentsline{toc}{chapter}{Le bruit de Perlin}
 \input{teX/003_Perlin.tex}
 
-\chapter*{Les axes d'améliorations}
-\markboth{\sc Les axes d'améliorations}{}
-\addcontentsline{toc}{chapter}{Les axes d'améliorations}
-\input{teX/004_AxesAmelioration.tex}
+\chapter*{Les améliorations réalisées}
+\markboth{\sc Les améliorations réalisées}{}
+\addcontentsline{toc}{chapter}{Les améliorations réalisée}
+\input{teX/004_AmeliorationsRealisees.tex}
+
+\chapter*{Les axes d'amélioration}
+\markboth{\sc Les axes d'amélioration}{}
+\addcontentsline{toc}{chapter}{Les axes d'amélioration}
+\input{teX/005_AxesAmelioration.tex}
 
 \chapter*{Conclusion}
 \markboth{\sc Conclusion}{}
 \addcontentsline{toc}{chapter}{Conclusion}
-\input{teX/005_Conclusion.tex}
+\input{teX/006_Conclusion.tex}
 
-\chapter*{Bibliographie}
-\markboth{\sc Bibliographie}{}
-\addcontentsline{toc}{chapter}{Bibliographie}
-\input{teX/006_Bibliographie.tex}
+\chapter*{Références}
+\markboth{\sc Références}{}
+\addcontentsline{toc}{chapter}{Références}
+\input{teX/007_Bibliographie.tex}
 
 \end{document}
